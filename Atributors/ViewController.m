@@ -44,13 +44,7 @@
     [self usePreferredFonts];
 }
 
-- (void) viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-    NSLog(@"viewWillDisappear");
-    
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIContentSizeCategoryDidChangeNotification object:nil];
-}
+
 
 -(void)usePreferredFonts
 {
