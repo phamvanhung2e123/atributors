@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E26564819EC38C2002897F9 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26564719EC38C2002897F9 /* TextStatsViewController.m */; };
 		6E6F354819DFD19B007A5A4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6F354719DFD19B007A5A4F /* main.m */; };
 		6E6F354B19DFD19B007A5A4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6F354A19DFD19B007A5A4F /* AppDelegate.m */; };
 		6E6F354E19DFD19B007A5A4F /* Atributors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E6F354C19DFD19B007A5A4F /* Atributors.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E26564619EC38C2002897F9 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		6E26564719EC38C2002897F9 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 		6E6F354219DFD19B007A5A4F /* Atributors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atributors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E6F354619DFD19B007A5A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E6F354719DFD19B007A5A4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				6E6F354F19DFD19B007A5A4F /* ViewController.h */,
 				6E6F355019DFD19B007A5A4F /* ViewController.m */,
 				6E6F355219DFD19B007A5A4F /* Main.storyboard */,
+				6E26564619EC38C2002897F9 /* TextStatsViewController.h */,
+				6E26564719EC38C2002897F9 /* TextStatsViewController.m */,
 				6E6F355519DFD19B007A5A4F /* Images.xcassets */,
 				6E6F355719DFD19B007A5A4F /* LaunchScreen.xib */,
 				6E6F354C19DFD19B007A5A4F /* Atributors.xcdatamodeld */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E26564819EC38C2002897F9 /* TextStatsViewController.m in Sources */,
 				6E6F354E19DFD19B007A5A4F /* Atributors.xcdatamodeld in Sources */,
 				6E6F354B19DFD19B007A5A4F /* AppDelegate.m in Sources */,
 				6E6F355119DFD19B007A5A4F /* ViewController.m in Sources */,
@@ -416,6 +422,7 @@
 				6E6F356A19DFD19C007A5A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E6F356B19DFD19C007A5A4F /* Build configuration list for PBXNativeTarget "AtributorsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				6E6F356D19DFD19C007A5A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
