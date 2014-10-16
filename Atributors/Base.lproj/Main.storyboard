@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hdL-k1-5ww">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--CS193 Rocks-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -21,11 +19,11 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zmm-y4-bGa">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="38" y="120" width="275" height="300"/>
+                                    <rect key="frame" x="38" y="72" width="275" height="348"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="32" y="119" width="275" height="300"/>
@@ -92,15 +90,6 @@
                                     <action selector="changeBodySelectionColorToMatchBackgroundOfButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6Vp-6V-PmE"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CS193p Rocks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfJ-sP-xXX">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="109" y="42" width="120" height="21"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXN-5c-Um3">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.80000001192092896" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
@@ -131,10 +120,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="OfJ-sP-xXX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="21" id="JDP-sQ-NDs"/>
-                            <constraint firstItem="OfJ-sP-xXX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="88" id="YzS-fk-Kut"/>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Zmm-y4-bGa"/>
@@ -142,13 +127,8 @@
                                 <exclude reference="4vp-jO-4Jx"/>
                                 <exclude reference="6v5-VG-4FR"/>
                                 <exclude reference="q7r-bA-4Bg"/>
-                                <exclude reference="OfJ-sP-xXX"/>
                                 <exclude reference="mXN-5c-Um3"/>
                                 <exclude reference="3tS-AY-LXN"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="JDP-sQ-NDs"/>
-                                <exclude reference="YzS-fk-Kut"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -158,25 +138,26 @@
                                 <include reference="4vp-jO-4Jx"/>
                                 <include reference="6v5-VG-4FR"/>
                                 <include reference="q7r-bA-4Bg"/>
-                                <include reference="OfJ-sP-xXX"/>
                                 <include reference="mXN-5c-Um3"/>
                                 <include reference="3tS-AY-LXN"/>
                             </mask>
-                            <mask key="constraints">
-                                <include reference="JDP-sQ-NDs"/>
-                                <include reference="YzS-fk-Kut"/>
-                            </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="CS193 Rocks" id="BqE-QS-cjh">
+                        <barButtonItem key="rightBarButtonItem" title="Stats" id="DAt-Er-eUm">
+                            <connections>
+                                <segue destination="yJY-pl-5ef" kind="push" identifier="Analyze text" id="QhO-J6-fmh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="body" destination="Zmm-y4-bGa" id="lDi-yx-kpE"/>
-                        <outlet property="headline" destination="OfJ-sP-xXX" id="NIM-Il-gWc"/>
                         <outlet property="outlineButton" destination="fE0-l3-Hov" id="n4U-lj-zvd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58.5" y="81"/>
+            <point key="canvasLocation" x="1894.5" y="81"/>
         </scene>
         <!--Text Stats View Controller-->
         <scene sceneID="Zys-Yu-fGw">
@@ -187,6 +168,7 @@
                         <viewControllerLayoutGuide type="bottom" id="G8L-cu-9xL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZY8-hH-vvA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 colorful character" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SeB-Ug-87Z">
@@ -222,6 +204,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="GTg-8E-t9F"/>
                     <connections>
                         <outlet property="colorfulCharacterLabel" destination="SeB-Ug-87Z" id="ozD-HD-01p"/>
                         <outlet property="outlineCharacterLabel" destination="95d-yH-t1c" id="HYz-BY-70z"/>
@@ -229,7 +212,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ih-NC-K2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="793.5" y="81"/>
+            <point key="canvasLocation" x="2629.5" y="81"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="21V-mk-c5n">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hdL-k1-5ww" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zt4-uj-PYV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Lac-sc-kVH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XKz-k4-bg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.5" y="81"/>
         </scene>
     </scenes>
 </document>
